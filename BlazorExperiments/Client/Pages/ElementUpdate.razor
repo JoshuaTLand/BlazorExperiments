@@ -1,0 +1,18 @@
+﻿@page "/elementupdate"
+
+<h3>Elemenet Update</h3>
+<p>This pages demonstrates using a button to trigger a method that in turn updates an elements contents</p>
+<br />
+<h5>@_time</h5>
+
+<button class="btn btn-primary" @onclick="SetTime">Update Element</button>
+
+
+@code {
+    private DateTime _time = DateTime.Now;
+
+    private void SetTime() 
+    {
+        _time = DateTime.Now;
+    }
+}

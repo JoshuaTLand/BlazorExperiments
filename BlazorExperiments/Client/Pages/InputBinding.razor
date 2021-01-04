@@ -1,0 +1,14 @@
+﻿@page "/inputbinding"
+
+<h3>InputBinding</h3>
+<p>This page deomstrates how to bind an input value to a variable. The binding on the input element will update when the element is clicked off of</p>
+<input @bind="testBind" />
+<br />
+<br />
+<h6>Bound Output</h6>
+<p>@testBind</p>
+
+@code {
+    public string testBind;
+
+}

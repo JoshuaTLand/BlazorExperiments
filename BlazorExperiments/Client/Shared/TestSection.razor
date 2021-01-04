@@ -1,0 +1,15 @@
+﻿<br />
+<h5>Parameter Text</h5>
+<p>@text</p>
+<button class="btn btn-primary" @onclick="updateText">UpdateText</button> 
+
+@code {
+
+    [Parameter]
+    public string text { get; set; }
+
+    public void updateText()
+    {
+        text = "This text was generated from inside the section";
+    }
+}

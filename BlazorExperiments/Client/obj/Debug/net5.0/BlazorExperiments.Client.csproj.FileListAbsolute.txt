@@ -648,3 +648,7 @@ C:\Users\joshua\Desktop\Projects\Web\BlazorExperiments\BlazorExperiments\Client\
 C:\Users\joshua\Desktop\Projects\Web\BlazorExperiments\BlazorExperiments\Client\obj\Debug\net5.0\Razor\Pages\ParameterValues.razor.g.cs
 C:\Users\joshua\Desktop\Projects\Web\BlazorExperiments\BlazorExperiments\Client\obj\Debug\net5.0\RazorDeclaration\Pages\InputBinding.razor.g.cs
 C:\Users\joshua\Desktop\Projects\Web\BlazorExperiments\BlazorExperiments\Client\obj\Debug\net5.0\Razor\Pages\InputBinding.razor.g.cs
+C:\Users\joshua\Desktop\Projects\Web\BlazorExperiments\BlazorExperiments\Client\obj\Debug\net5.0\RazorDeclaration\Pages\InputUpdate.razor.g.cs
+C:\Users\joshua\Desktop\Projects\Web\BlazorExperiments\BlazorExperiments\Client\obj\Debug\net5.0\Razor\Pages\InputUpdate.razor.g.cs
+C:\Users\joshua\Desktop\Projects\Web\BlazorExperiments\BlazorExperiments\Client\obj\Debug\net5.0\RazorDeclaration\Pages\OnInit.razor.g.cs
+C:\Users\joshua\Desktop\Projects\Web\BlazorExperiments\BlazorExperiments\Client\obj\Debug\net5.0\Razor\Pages\OnInit.razor.g.cs

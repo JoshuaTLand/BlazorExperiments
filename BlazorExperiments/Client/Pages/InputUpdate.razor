@@ -1,0 +1,12 @@
+﻿@page "/inputupdate"
+@inject IJSRuntime JsRuntime;
+
+<h3>Input Update</h3>
+<p>In this example, we bind the input to a value, but change the bind event to [@@bind="inputVal" @@bind:event="oninput"] which updates the value immediately</p>
+<br />
+<input class="form-control" id="inputId" @bind="inputVal" @bind:event="oninput" />
+<h6>@inputVal</h6>
+
+@code {
+    private string inputVal;
+}

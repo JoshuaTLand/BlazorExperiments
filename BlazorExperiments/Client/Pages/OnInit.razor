@@ -1,0 +1,17 @@
+﻿@page "/oninitoverride"
+
+<h3>Override OnInitializedAsync</h3>
+<p>This page deomstrates overriding the OnInitializedAsync to affect page load</p>
+<br />
+<br />
+<h5><b>Output</b></h5>
+<p>This value is initialized to 'Initial value' but has been changed in the OnInitializedAsync method to  <em>@testVal</em></p>
+
+@code {
+    public string testVal = "Initial value";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Run(() => { testVal = "Overridden value"; });
+    }
+}

@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorExperiments.Client.Shared
+namespace BlazorExperiments.Client.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,8 @@ using BlazorExperiments.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/oninitoverride")]
+    public partial class OnInit : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,15 +91,13 @@ using BlazorExperiments.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 53 "C:\Users\joshua\Desktop\Projects\Web\BlazorExperiments\BlazorExperiments\Client\Shared\NavMenu.razor"
+#line 10 "C:\Users\joshua\Desktop\Projects\Web\BlazorExperiments\BlazorExperiments\Client\Pages\OnInit.razor"
        
-    private bool collapseNavMenu = true;
+    public string testVal = "Initial value";
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    protected override async Task OnInitializedAsync()
     {
-        collapseNavMenu = !collapseNavMenu;
+        await Task.Run(() => { testVal = "Overridden value"; });
     }
 
 #line default
